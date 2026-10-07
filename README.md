@@ -71,10 +71,13 @@ deduplicated, capped weekly digest:
 
 ## My role
 
-Designed and built the entire pipeline solo, including pivoting the
-original data-source choice mid-build after discovering a platform
-policy change, and later extending the system with a second discovery
-method without breaking or rewriting the original working version.
+My role
+
+Designed and built the entire pipeline solo, including pivoting the original data-source choice mid-build after discovering a platform policy change, and later extending the system with a second discovery method without breaking or rewriting the original working version.
+
+Development approach
+
+I used AI tools (Claude) to help draft code and documentation, and I cross-referenced the official AWS and Last.fm documentation to confirm services, permissions, and API behavior. I deployed everything myself in AWS, tested it, debugged issues - including the Lambda timeout and blank-environment-variable bugs detailed below - and corrected the output as I went. The project idea and the problem it solves come from my own day-to-day experience with music discovery overwhelm.
 
 ---
 
